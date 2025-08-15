@@ -12,7 +12,7 @@ if (!process.env.GEMINI_API_KEY) {
 // Initialize
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 // use flash model
-const model = genAI.getGenerativeModel({ model: 'models/gemini-1.5-flash' });
+const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
 
 /**
  * Get text reply from Gemini
